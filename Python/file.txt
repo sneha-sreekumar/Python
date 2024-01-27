@@ -1,0 +1,12 @@
+f1=open("secfile.txt","w")
+f1.write("This is my first file in python.\n want to work with files \n This is my third 
+line")
+f1=open("secfile.txt","r")
+ff=f1.readlines()
+print(ff)
+OUTPUT
+['This is my first file in python.\n', ' want to work with files \n', ' This is my third 
+line']
+This is my first line.
+This is my second line 
+This is my third line

@@ -1,0 +1,6 @@
+file=input("enter file name:")
+f=file.split(".")
+print("Extension of the file is:"+ f[-1])
+OUTPUT
+enter file name:large.py
+Extension of the file is:py
